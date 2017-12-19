@@ -20,3 +20,4 @@ def ShinyList():
 	    Chance=(1-((8191/8192)**i))*100
 	    print("Encounter: ",i,"  Shiny Chance: ",Chance,"%")
 	    i+=1
+	print('Test')
