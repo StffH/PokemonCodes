@@ -6,7 +6,9 @@ banner = ("\n------------------------------------")
 print("Shiny Pokemon Probability Calculator",banner)
 def GenAsk():
         print("Do want to to calcute:\n\n1. Pre Gen 5 1:8192\nor\n2. Post Gen 5 1:4096?")
+#try
         cl = int(input(">>>>>"))
+        
         if cl == 1:
                 x = gen1
         elif cl == 2:
@@ -16,6 +18,7 @@ def GenAsk():
                 GenAsk()
         print()
         print("Do you want your output as\n\n1. A List\nor\n2. A Single Output?")
+#try
         ch = int(input(">>>>>"))
         if ch == 2:
                 try:
@@ -42,11 +45,3 @@ def GenAsk():
 
                 
 GenAsk()
-        
-                
-        
-
-#Chance = (1-((x)**n)*100)
-#n = Cycles
-#replace n with i for list
-#Good night
